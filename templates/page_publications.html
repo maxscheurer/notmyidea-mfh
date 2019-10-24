@@ -19,6 +19,7 @@
 {% endfor %}
 
 {# Do all the lecture notes #}
+{% if SHOW_LECTURE_NOTES %}
 <table>
 <thead>
 <tr>
@@ -31,5 +32,6 @@
 {% include 'publication_infos.html' %}
 {% endfor %}
 </table>
+{% endif %}
 
 {% endblock %}

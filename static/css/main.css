@@ -11,7 +11,8 @@ html {
 
 /* Body */
 body {
-    background: #F5F4EF;
+    /* background: #F5F4EF; */
+    background: #ECECEC;
     color: #000305;
     font-size: 91%;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -397,6 +398,8 @@ img.githubRight {position: absolute; top: 0; left: 0; border: 0; }
 .social a[href*='orcid.org']:before {content: url('../images/icons/orcid.png'); margin-right: .8ex; vertical-align: -4px;}
 .social a[href*='github.com']:before {content: url('../images/icons/github.png'); margin-right: .8ex; vertical-align: -4px;}
 .social a[href*='gitlab.com']:before {content: url('../images/icons/gitlab.png'); margin-right: .8ex; vertical-align: -4px;}
+.social a[href*='twitter.com']:before {content: url('../images/icons/twitter.png'); margin-right: .8ex; vertical-align: -4px;}
+.social a[href*='scholar.google.com']:before {content: url('../images/icons/scholar.png'); margin-right: .8ex; vertical-align: -4px;}
 
 /* Tagcloud */
 ul.tagcloud {
